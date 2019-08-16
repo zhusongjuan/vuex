@@ -24,6 +24,7 @@ export default new Vuex.Store({
         }
     },
     actions: {
+        // 执行异步操作
         addAsync(context) {
             setTimeout(() => {
                 context.commit('add')
